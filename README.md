@@ -1,4 +1,4 @@
-# Build-a-Website-using-an-API-with-HTML--JavaScript--and-JSON
+# Build-a-Website-using-an-API-with-HTML--JavaScript
 
 ## Brief Project Description
 The Weather Forecast Web App is a web application that provides users with real-time weather forecasts based on their geographical coordinates. Users can input latitude and longitude values to receive detailed weather information, including temperature, weather conditions, and a 7-day forecast.
