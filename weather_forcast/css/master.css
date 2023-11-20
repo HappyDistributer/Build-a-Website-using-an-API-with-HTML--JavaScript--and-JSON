@@ -1,0 +1,182 @@
+/* Styles for .bm-2 class */
+.bm-2 {
+    margin-bottom: 2rem;
+}
+
+/* Styles for tooltip with top arrow */
+[class~=tooltip][class~=top]>[class~=tooltip-arrow] {
+    border-top-width: 1.5pt;
+    border-top-style: solid;
+    border-top-color: #ff0;
+}
+
+/* Styles for #query-form and [class~=forecast-block] */
+#query-form,
+[class~=forecast-block] {
+    margin-left: auto;
+}
+
+/* Styles for .top-heading */
+.top-heading {
+    text-align: center;
+}
+
+/* Styles for .card class */
+.card {
+    background-color: #439aeb;
+    border-left-width: medium;
+    border-bottom-width: medium;
+    border-right-width: medium;
+    border-top-width: medium;
+}
+
+/* Styles for link on hover */
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Styles for .keyword-magnet class */
+.keyword-magnet {
+    border-left-width: .017708333in;
+    border-bottom-width: .017708333in;
+    border-right-width: .017708333in;
+    border-top-width: .017708333in;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-color: #ddd;
+    border-bottom-color: #ddd;
+    border-right-color: #ddd;
+    border-top-color: #ddd;
+    border-radius: 6px;
+    color: #ddd;
+    font-size: .85em;
+    line-height: 2.2em;
+    margin: 0.1em;
+    padding-left: .5em;
+    padding-bottom: .15em;
+    padding-right: .5em;
+    padding-top: .15em;
+}
+
+
+/* Styles for section headings and subheadings */
+[class~=section-heading],
+[class~=section-subheading],
+[class~=subsection-heading],
+footer {
+    text-align: center;
+}
+
+/* Styles for section divider */
+.section-divider {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    opacity: .75;
+    display: inline-block;
+    /* background-color: transparent; */
+}
+
+/* Styles for footer */
+footer {
+    text-shadow: 0.125pc 0.125pc 0.625pc #000000;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: .2rem;
+    height: 13vh;
+}
+
+code {
+    color: white;
+}
+
+/* Styles for body display and background size */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#query-form *:focus {
+    outline: none;
+}
+
+/* Styles for weather card */
+.weather-card {
+    max-width: 90vw;
+    margin: 0 auto;
+    max-height: 80vh;
+    overflow: auto;
+    background: #00000054;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px 10px rgb(62 68 152 / 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Media query for weather card */
+@media (min-width: 600px) {
+
+    .weather-card .weather-header,
+    .weather-card .weather-main,
+    .weather-card .weather-footer {
+        width: auto;
+        flex: 1;
+    }
+}
+
+.card {
+    background-color: #0082fb3b;
+    border-left-width: medium;
+    border-bottom-width: medium;
+    border-right-width: medium;
+    border-top-width: medium;
+}
+
+.results-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.weather-card .section-description {
+    max-width: 100%;
+}
+
+.weather-card .weather-footer {
+    padding: 10px;
+
+}
